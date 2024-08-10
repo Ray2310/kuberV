@@ -6,9 +6,11 @@ import (
 	"kubeimooc.com/global"
 )
 
+// K8S 初始化k8s客户端
 func K8S() {
+	// kubeconfig 文件的路径
 	kubeconfig := ".kube/config"
-	// use the current context in kubeconfig
+	// duq
 	config, err := clientcmd.BuildConfigFromFlags("", kubeconfig)
 	if err != nil {
 		panic(err.Error())

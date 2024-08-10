@@ -5,7 +5,7 @@ import (
 	"kubeimooc.com/initiallize"
 )
 
-//项目启动入口
+// 项目启动入口
 func main() {
 	r := initiallize.Routers()
 	initiallize.Viper()

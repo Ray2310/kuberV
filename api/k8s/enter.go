@@ -5,6 +5,7 @@ import (
 	"kubeimooc.com/validate"
 )
 
+// k8s 包下所有接口的集合
 type ApiGroup struct {
 	PodApi
 	NamespaceApi
